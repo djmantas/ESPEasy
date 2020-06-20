@@ -40,6 +40,7 @@ else:
 #   "USES_P087",  # Serial Proxy
 #   "USES_P094",  # CUL Reader
 #   "USES_P095",  # TFT ILI9341
+    "USES_P999",  # PAC
 
     "USES_C016",  # Cache Controller
     "USES_C018",  # TTN/RN2483
@@ -66,6 +67,3 @@ print("\u001b[32m ------------------------------- \u001b[0m")
 if (len(my_defines) == 0):
   print("\u001b[31m No defines are set, probably configuration error. \u001b[0m")
   raise ValueError
-
-
-
